@@ -2,8 +2,72 @@
 
 <html>
   <head>
-    <link rel="stylesheet" href="lib/style.css">
-    <script src="lib/script.js"></script>
+    <style>
+html{
+  background-image: url("https://t4.ftcdn.net/jpg/05/09/38/37/360_F_509383732_npmgnUCP7YJA4oFAXHEcNsa77PuFzDzl.jpg");
+  background-size: cover;
+}
+.main{
+  background-color: black;
+  padding: 10px;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: lime;
+  font-family: 'Roboto Mono', sans-serif;
+  color: lime;
+  text-align: center;
+}
+.nav{
+  background-color: black;
+  padding: 10px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: lime;
+  font-family: 'Roboto Mono', sans-serif;
+  color: lime;
+  text-align: center;
+}
+.browse{
+  background-color: black;
+  padding: 20px;
+  padding-top: 0px;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: lime;
+  font-family: 'Roboto Mono', sans-serif;
+  color: lime;
+  text-align: center;
+}
+.search{
+  border-radius: 100px;
+  height: 30px;
+  width: 500px;
+}
+.searchBtn{
+  color: lime;
+  background-color: black;
+  border-color: black;
+}
+.app{
+  background-color: black;
+  padding: px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: lime;
+  font-family: 'Roboto Mono', sans-serif;
+  color: lime;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  
+}
+
+    </style>
+    <script>
+    function search(){
+  window.open("https://www.google.com/search?q=" + document.getElementById('searchBar').value)
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -15,7 +79,7 @@
       <a href="addsite.html">Add a site</a>
     </div><br>
     <div class="main">
-    <h1>Mythical Browser V0.0.0</h1>
+    <h1>Mythical Browser V0.0.1</h1>
     <p>Find the best unblocked game sites.</p>
     </div>
     <br>
