@@ -1,0 +1,58 @@
+html{
+  background-image: url("https://t4.ftcdn.net/jpg/05/09/38/37/360_F_509383732_npmgnUCP7YJA4oFAXHEcNsa77PuFzDzl.jpg");
+  background-size: cover;
+}
+.main{
+  background-color: black;
+  padding: 10px;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: lime;
+  font-family: 'Roboto Mono', sans-serif;
+  color: lime;
+  text-align: center;
+}
+.nav{
+  background-color: black;
+  padding: 10px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: lime;
+  font-family: 'Roboto Mono', sans-serif;
+  color: lime;
+  text-align: center;
+}
+.browse{
+  background-color: black;
+  padding: 20px;
+  padding-top: 0px;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: lime;
+  font-family: 'Roboto Mono', sans-serif;
+  color: lime;
+  text-align: center;
+}
+.search{
+  border-radius: 100px;
+  height: 30px;
+  width: 500px;
+}
+.searchBtn{
+  color: lime;
+  background-color: black;
+  border-color: black;
+}
+.app{
+  background-color: black;
+  padding: px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: lime;
+  font-family: 'Roboto Mono', sans-serif;
+  color: lime;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  
+}
